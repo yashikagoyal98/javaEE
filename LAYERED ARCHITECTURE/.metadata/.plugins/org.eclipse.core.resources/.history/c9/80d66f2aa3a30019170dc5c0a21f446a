@@ -1,0 +1,13 @@
+package com.zensar.dao;
+
+import com.mysql.jdbc.Connection;
+import com.zensar.model.Student;
+
+public class StudentDao {
+ private Connection conn;
+		public void addStudent(Student s)
+		{
+			
+		}
+
+	}

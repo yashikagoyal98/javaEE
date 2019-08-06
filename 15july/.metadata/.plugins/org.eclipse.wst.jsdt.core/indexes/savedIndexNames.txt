@@ -1,0 +1,3 @@
+INDEX VERSION 1.4+D:\Yashika\JavaEE\15july\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2004201220.index
+1148771619.index

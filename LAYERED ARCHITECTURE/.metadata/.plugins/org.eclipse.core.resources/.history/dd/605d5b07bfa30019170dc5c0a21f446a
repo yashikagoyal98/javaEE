@@ -1,0 +1,15 @@
+package com.zensar.services;
+
+import com.zensar.dao.StudentDao;
+import com.zensar.model.Student;
+
+public class StudentService {
+	private  StudentDao dao;
+	
+	public  void insertIntoTable(Student s)
+	{
+		dao=new StudentDao();
+		rwturn dao.getAllStudent();
+	}
+
+}

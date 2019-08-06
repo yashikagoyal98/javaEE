@@ -1,0 +1,47 @@
+package com.zensar;
+ class Icecream
+ {
+	 public String getFlavour() {
+		return flavour;
+	}
+
+	public void setFlavour(String flavour) {
+		this.flavour = flavour;
+	}
+
+	public float getPrice() {
+		return price;
+	}
+
+	public void setPrice(float price) {
+		this.price = price;
+	}
+
+	public String flavour;
+	 public float price;
+	 public float discount;
+	 
+	 public  Icecream(float price,String flavour)
+	 {
+		 this.price=price;
+		 this.flavour=flavour;
+	 }
+ }
+public class IcecreamBill {
+
+	public static void main(String[] args) {
+		Icecream ic=new Icecream(1,"chocolate" );
+		float discount;
+		String flavour = null;
+		if(flavour=="chocolate")
+		{
+			discount=(float) 10.75;
+		}
+		else
+		{
+			discount=(float)5.25;
+		}
+
+	}
+
+}

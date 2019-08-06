@@ -1,0 +1,32 @@
+
+Jul 10, 2019 13:51:01.14 NEW SESSION
+Jul 10, 2019 13:51:01.14 [14192:13364:0710/135101.103:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+Jul 10, 2019 13:51:01.17 [14192:13364:0710/135101.103:ERROR:cache_util.cc(141)] Unable to move cache folder C:\Users\TRG\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\TRG\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Jul 10, 2019 13:51:01.17 [14192:13364:0710/135101.103:ERROR:disk_cache.cc(178)] Unable to create cache
+Jul 10, 2019 13:51:01.18 [14192:13364:0710/135101.103:ERROR:shader_disk_cache.cc(623)] Shader Cache Creation failed: -2
+Jul 10, 2019 13:51:01.41 Opening in existing browser session.
+Jul 10, 2019 14:45:33.67 [3016:13816:0710/144533.670:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+Jul 10, 2019 14:45:33.67 [3016:13816:0710/144533.671:ERROR:cache_util.cc(141)] Unable to move cache folder C:\Users\TRG\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\TRG\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Jul 10, 2019 14:45:33.67 [3016:13816:0710/144533.671:ERROR:disk_cache.cc(178)] Unable to create cache
+Jul 10, 2019 14:45:33.68 [3016:13816:0710/144533.671:ERROR:shader_disk_cache.cc(623)] Shader Cache Creation failed: -2
+Jul 10, 2019 14:45:33.89 Opening in existing browser session.
+Jul 10, 2019 14:50:07.45 [11764:7656:0710/145007.448:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+Jul 10, 2019 14:50:07.45 [11764:7656:0710/145007.449:ERROR:cache_util.cc(141)] Unable to move cache folder C:\Users\TRG\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\TRG\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Jul 10, 2019 14:50:07.45 [11764:7656:0710/145007.449:ERROR:disk_cache.cc(178)] Unable to create cache
+Jul 10, 2019 14:50:07.45 [11764:7656:0710/145007.449:ERROR:shader_disk_cache.cc(623)] Shader Cache Creation failed: -2
+Jul 10, 2019 14:50:07.62 Opening in existing browser session.
+Jul 10, 2019 14:52:16.95 [13108:14256:0710/145216.950:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+Jul 10, 2019 14:52:16.95 [13108:14256:0710/145216.951:ERROR:cache_util.cc(141)] Unable to move cache folder C:\Users\TRG\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\TRG\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Jul 10, 2019 14:52:16.95 [13108:14256:0710/145216.951:ERROR:disk_cache.cc(178)] Unable to create cache
+Jul 10, 2019 14:52:16.95 [13108:14256:0710/145216.951:ERROR:shader_disk_cache.cc(623)] Shader Cache Creation failed: -2
+Jul 10, 2019 14:52:17.29 Opening in existing browser session.
+Jul 10, 2019 14:52:50.73 [14032:13908:0710/145250.735:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+Jul 10, 2019 14:52:50.73 [14032:13908:0710/145250.736:ERROR:cache_util.cc(141)] Unable to move cache folder C:\Users\TRG\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\TRG\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Jul 10, 2019 14:52:50.74 [14032:13908:0710/145250.736:ERROR:disk_cache.cc(178)] Unable to create cache
+Jul 10, 2019 14:52:50.74 [14032:13908:0710/145250.736:ERROR:shader_disk_cache.cc(623)] Shader Cache Creation failed: -2
+Jul 10, 2019 14:52:51.04 Opening in existing browser session.
+Jul 10, 2019 14:55:07.57 [9404:2512:0710/145507.568:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+Jul 10, 2019 14:55:07.57 [9404:2512:0710/145507.569:ERROR:cache_util.cc(141)] Unable to move cache folder C:\Users\TRG\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\TRG\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Jul 10, 2019 14:55:07.57 [9404:2512:0710/145507.569:ERROR:disk_cache.cc(178)] Unable to create cache
+Jul 10, 2019 14:55:07.57 [9404:2512:0710/145507.569:ERROR:shader_disk_cache.cc(623)] Shader Cache Creation failed: -2
+Jul 10, 2019 14:55:07.80 Opening in existing browser session.

@@ -1,0 +1,51 @@
+package com.zensar;
+
+public class Icecream {
+	private String flavour;
+	private double price;
+	private double discount;
+
+	public Icecream() {
+		super();
+	}
+
+	public Icecream(String flavour, double price) {
+		this.flavour = flavour;
+		this.price = price;
+		if(flavour.equalsIgnoreCase("chocolate")) {
+		discount = 10.75;
+		}else {
+			discount = 5.25;
+		}
+	}
+
+	public String getFlavour() {
+		return flavour;
+	}
+
+	public void setFlavour(String flavour) {
+		this.flavour = flavour;
+	}
+
+	public double getPrice() {
+		return price;
+	}
+
+	public void setPrice(double price) {
+		this.price = price;
+	}
+
+	public double getDiscount() {
+		return discount;
+	}
+
+	public void setDiscount(double discount) {
+		this.discount = discount;
+	}
+
+	@Override
+	public String toString() {
+		return "IceCream [flavour=" + flavour + ", price=" + price + ", discount=" + discount + "]";
+	}
+
+}

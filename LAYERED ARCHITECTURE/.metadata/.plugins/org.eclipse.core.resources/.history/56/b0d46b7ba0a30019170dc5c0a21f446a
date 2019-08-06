@@ -1,0 +1,12 @@
+package com.zensar.services;
+
+public class StudentService {
+	
+	public void insertIntoTable(Student s)
+	{
+		// TODO Auto-generated method stub
+
+	}
+
+
+}

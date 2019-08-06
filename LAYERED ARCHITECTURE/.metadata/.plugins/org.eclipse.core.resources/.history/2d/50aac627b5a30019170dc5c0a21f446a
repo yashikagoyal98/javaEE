@@ -1,0 +1,30 @@
+package com.zensar.ui;
+
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.zensar.dao.StudentDao;
+import com.zensar.model.Student;
+import com.zensar.services.StudentService;
+
+/**
+ * Servlet implementation class StudentServlet
+ */
+@WebServlet("/Studserv")
+public class StudentServlet extends HttpServlet {
+	protected void service(HttpServletRequest request,HttpServletResponse response) throws IOException ,ServletException
+	{
+		Student s=new Student();
+		s.setRollno(Integer.parseInt(request.getParameter("rollno")));
+		s.setName(request.getParameter("name"));
+		s.setPercentage(Double.parseDouble(request.getParameter("per")));
+		s.display();
+		StudentService stud= new StudentService();
+		stud.insertIntoTable(s);
+		
+}
+}

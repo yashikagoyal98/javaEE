@@ -1,0 +1,39 @@
+package com.zensar.dao;
+
+import java.sql.*;
+
+import com.zensar.model.Student;
+
+public class StudentDao {
+ private Connection conn;
+ static
+ {
+	 try {
+		Class.forName("com.mysql.jdbc.Driver");
+	} catch (ClassNotFoundException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+	 System.out.println("driver loaded");
+ }
+		public void addStudent(Student s)
+		{
+			try {
+				conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/test","root","root");
+			
+			PreparedStatement pstmt= conn.prepareStatement("insert into student values(?,?,?)");
+			pstmt.setInt(1,s.getRollno());
+			pstmt.setString(2,s.getName());
+			pstmt.setDouble(3,s.getPercentage());
+			pstmt.executeUpdate();
+			conn.close();
+			}
+			catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			
+			System.out.println("connection established");
+		}
+
+	}

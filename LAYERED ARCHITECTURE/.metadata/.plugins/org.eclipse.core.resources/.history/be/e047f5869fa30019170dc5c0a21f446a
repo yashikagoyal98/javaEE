@@ -1,0 +1,13 @@
+package com.zensar.model;
+
+public class Student {
+	private int rollno;
+	private String name;
+	private double percentage;
+
+
+	public static void main(String[] args) {
+	
+	}
+
+}

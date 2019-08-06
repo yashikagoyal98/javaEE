@@ -1,0 +1,61 @@
+package com.zensar.dao;
+
+import java.sql.*;
+import java.util.ArrayList;
+import java.util.*;
+
+import com.zensar.model.Student;
+
+public class StudentDao {
+ private static Connection conn;
+ static
+ {
+	 try {
+		Class.forName("com.mysql.jdbc.Driver");
+		
+		conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/test","root","root");
+			/* System.out.println("connection established"); */
+		System.out.println("driver loaded");
+	} catch (ClassNotFoundException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	} catch (SQLException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+	 
+ }
+		public void addStudent(Student s)
+		{
+			try {
+				Statement stmt=conn.createStatement();
+				ResultSet rs=stmt.executeQuery("select * from student");
+				while(rs.next())
+				{
+					s.setRollno(rs.getInt(1));
+					s.setName(rs.getString(2));
+					s.setPercentage(rs.getDouble(3));
+					list.add(s);
+				}
+				
+			
+			/*PreparedStatement pstmt= conn.prepareStatement("insert into student values(?,?,?)");
+			pstmt.setInt(1,s.getRollno());
+			pstmt.setString(2,s.getName());
+			pstmt.setDouble(3,s.getPercentage());
+			pstmt.execute();
+			conn.close();*/
+			}
+			catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			
+			public List<Student> getAllStudents()
+			{
+				List<Student> list=new ArrayList<>();
+				return list;
+			}
+		}
+
+	}

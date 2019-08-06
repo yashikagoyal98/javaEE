@@ -1,0 +1,40 @@
+package com.zensar;
+
+import java.util.Scanner;
+
+class Icecream
+ {
+	 
+
+	public String flavour;
+	 public float price;
+	 public float discount;
+	 
+	 public  Icecream(float price,String flavour)
+	 {
+		 this.price=price;
+		 this.flavour=flavour;
+	 }
+ }
+public class IcecreamBill {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("ENTER THE FLAVOUR");
+		sc.next();
+	Icecream ic=new Icecream(0,null ); 
+		float discount;
+		String flavour = null;
+		if((flavour).equals("chocolate"))
+		{
+			discount=(float) 10.75;
+		}
+		else
+		{
+			discount=(float)5.25;
+		}
+		System.out.println("discount is=" +discount);
+
+	}
+
+}
